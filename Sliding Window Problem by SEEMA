@@ -1,0 +1,17 @@
+Author: Seema Kumari Patel (2-oct-21)
+Problem Statement : Given an array of positive integers and the window size, find the maxima of the minima of the subarrays of the array.
+
+Input : n - size of the array
+        array elements - positive integers
+        k - window size
+output: maxima of minima of the subarrays
+
+sample : Input :5 
+                1 2 3 2 4 
+                3
+         Output: 2
+
+Explaination - 1. For the first three elements (as k =3), minimum value is 1 ( out of 1 2 3).
+               2. For the next window elements minimum value is 2 (out of 2 3 2).
+               3.  For the next window elements minimum value is 2 (out of 3 2 4).
+               4. Maximum of all the three subsets is 2, hence the output.
